@@ -47,11 +47,11 @@
         </tr>
         <tr>
             <td><b>이름</b></td>
-            <td>정우성</td>
+            <td>장은연</td>
         </tr>
         <tr>
             <td><b>생년월일</b></td>
-            <td>1985-07-19</td>
+            <td>1998-07-19</td>
         </tr>
         <tr>
             <td><b>기저질환</b></td>
@@ -67,15 +67,15 @@
         </tr>
         <tr>
             <td><b>보호자 연락처</b></td>
-            <td>010-1234-5678 [모]</td>
+            <td>010-7262-5813 [모]</td>
         </tr>
         <tr>
             <td><b>다니는 병원</b></td>
-            <td>031-332-3221남병원</td>
+            <td>031-344-3909 남북병원</td>
         </tr>
     </table>
 
-    <button onclick="window.location.href='sms:01012345678?body=정우성님의 상태를 확인해 주세요.'">
+    <button onclick="window.location.href='sms:01012345678?body=119 구급대원입니다. 보호자연락처로 전화를 드렸는데 받지 않으셔서 문자 남깁니다..'">
         보호자에게 문자 보내기
     </button>
 
