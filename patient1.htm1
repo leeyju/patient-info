@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
  <html lang="ko">
  <head>
      <meta charset="UTF-8">
@@ -39,7 +39,7 @@
          </tr>
          <tr>
              <td><b>생년월일</b></td>
-             <td>1998-07-19</td>
+             <td>1997-09-19</td>
          </tr>
          <tr>
              <td><b>기저질환</b></td>
@@ -51,7 +51,7 @@
          </tr>
          <tr>
              <td><b>가족력</b></td>
-             <td>할머니 당뇨병 병력</td>
+             <td>외할아버지 당뇨병 병력</td>
          </tr>
          <tr>
              <td><b>보호자 연락처</b></td>
@@ -59,8 +59,9 @@
          </tr>
          <tr>
              <td><b>다니는 병원</b></td>
-             <td>031-256-8989 [서울안전병원]</td>
+             <td>031-232-8044 [힘듦병원]</td>
      </table>
  
  </body>
  </html>
+
