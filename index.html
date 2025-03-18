@@ -3,59 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>환자 정보</title>
+    <title>환자 목록</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 20px;
         }
-        table {
-            width: 80%;
-            margin: auto;
-            border-collapse: collapse;
+        ul {
+            list-style-type: none;
+            padding: 0;
         }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
+        li {
+            margin: 10px 0;
         }
-        th {
-            background-color: #f4f4f4;
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>환자 정보</h1>
 
-    <table>
-        <tr>
-            <th>항목</th>
-            <th>정보</th>
-        </tr>
-        <tr>
-            <td><b>이름</b></td>
-            <td>홍길동</td>
-        </tr>
-        <tr>
-            <td><b>생년월일</b></td>
-            <td>1985-06-15</td>
-        </tr>
-        <tr>
-            <td><b>기저질환</b></td>
-            <td>고혈압, 당뇨</td>
-        </tr>
-        <tr>
-            <td><b>복용 약</b></td>
-            <td>아스피린, 메트포르민</td>
-        </tr>
-        <tr>
-            <td><b>가족력</b></td>
-            <td>부모님 모두 고혈압</td>
-        </tr>
-        <tr>
-            <td><b>보호자 연락처</b></td>
-            <td>010-1234-5678</td>
-    </table>
+    <h1>환자 목록</h1>
+
+    <ul>
+        <li><a href="patient1.html">김민수</a></li>
+        <li><a href="patient2.html">이서연</a></li>
+        <li><a href="patient3.html">정우성</a></li>
+    </ul>
 
 </body>
 </html>
