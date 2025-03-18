@@ -22,18 +22,6 @@
         th {
             background-color: #f4f4f4;
         }
-        button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
     </style>
 </head>
 <body>
@@ -67,11 +55,12 @@
         </tr>
         <tr>
             <td><b>보호자 연락처</b></td>
-            <td>010-7262-5813 [모]</td>
+            <td>010-7262-5813</td>
         </tr>
-        <tr>
-            <td><b>다니는 병원</b></td>
-            <td>031-344-3909 남북병원</td>
+    </table>
+
+</body>
+</html>
         </tr>
     </table>
 
