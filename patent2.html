@@ -22,6 +22,18 @@
         th {
             background-color: #f4f4f4;
         }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -35,32 +47,37 @@
         </tr>
         <tr>
             <td><b>이름</b></td>
-            <td>김민수</td>
+            <td>정우성</td>
         </tr>
         <tr>
             <td><b>생년월일</b></td>
-            <td>1978-04-12</td>
+            <td>1985-07-19</td>
         </tr>
         <tr>
             <td><b>기저질환</b></td>
-            <td>천식</td>
+            <td>당뇨병, 고혈압</td>
         </tr>
         <tr>
             <td><b>복용 약</b></td>
-            <td>살부타몰 흡입기</td>
+            <td>메트포르민, 암로디핀</td>
         </tr>
         <tr>
             <td><b>가족력</b></td>
-            <td>어머니 천식 병력</td>
+            <td>어머니 당뇨병 병력</td>
         </tr>
         <tr>
             <td><b>보호자 연락처</b></td>
-            <td>010-1234-1234 [남동생]</td>
+            <td>010-1234-5678</td>
+        </tr>
         <tr>
             <td><b>다니는 병원</b></td>
-            <td>031-221-2234 [지남병원]</td>
+            <td>서울 중앙병원</td>
         </tr>
     </table>
+
+    <button onclick="window.location.href='sms:01012345678?body=정우성님의 상태를 확인해 주세요.'">
+        보호자에게 문자 보내기
+    </button>
 
 </body>
 </html>
